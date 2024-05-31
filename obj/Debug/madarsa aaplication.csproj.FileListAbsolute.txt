@@ -1,0 +1,18 @@
+E:\madarsa aaplication\bin\Debug\madarsa aaplication.exe.config
+E:\madarsa aaplication\bin\Debug\madarsa aaplication.exe
+E:\madarsa aaplication\bin\Debug\madarsa aaplication.pdb
+E:\madarsa aaplication\obj\Debug\madarsa aaplication.csproj.AssemblyReference.cache
+E:\madarsa aaplication\obj\Debug\madarsa_aaplication.Properties.Resources.resources
+E:\madarsa aaplication\obj\Debug\madarsa aaplication.csproj.GenerateResource.cache
+E:\madarsa aaplication\obj\Debug\madarsa aaplication.csproj.CoreCompileInputs.cache
+E:\madarsa aaplication\obj\Debug\madarsa aaplication.exe
+E:\madarsa aaplication\obj\Debug\madarsa aaplication.pdb
+E:\madarsa aaplication\obj\Debug\madarsa_aaplication.show_expense.resources
+E:\madarsa aaplication\obj\Debug\madarsa_aaplication.dashboards.resources
+E:\madarsa aaplication\obj\Debug\madarsa_aaplication.enterearning.resources
+E:\madarsa aaplication\obj\Debug\madarsa_aaplication.enterexpense.resources
+E:\madarsa aaplication\obj\Debug\madarsa_aaplication.loginform.resources
+E:\madarsa aaplication\obj\Debug\madarsa_aaplication.main.resources
+E:\madarsa aaplication\obj\Debug\madarsa_aaplication.SalesCategory.resources
+E:\madarsa aaplication\obj\Debug\madarsa_aaplication.salesview.resources
+E:\madarsa aaplication\obj\Debug\madarsa_aaplication.incomecategory.resources
