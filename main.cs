@@ -62,12 +62,12 @@ namespace madarsa_aaplication
 
         private void مدعاتToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            loadform(new SalesCategory());
+            loadform(new incomecategory());
         }
 
         private void خرچمداتToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            loadform(new incomecategory());
+            loadform(new SalesCategory());
         }
 
         private void panel_Paint(object sender, PaintEventArgs e)

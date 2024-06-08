@@ -106,11 +106,16 @@ namespace madarsa_aaplication
 
         private void ClearData()
         {
-            expensetextbox.Text = "name";
+            expensetextbox.Text = "";
             descriptionbox.Text = "";
             priceperunittextbox.Text = "";
             dateTimePicker.Value = DateTime.Now;
             expensecombobox.SelectedItem = null;
+        }
+
+        private void expensetextbox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -62,7 +62,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(124, 36);
             this.label5.TabIndex = 18;
-            this.label5.Text = "آمدن مدات";
+            this.label5.Text = "خرچ مدات";
             // 
             // label1
             // 

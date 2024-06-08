@@ -16,3 +16,21 @@ E:\madarsa aaplication\obj\Debug\madarsa_aaplication.main.resources
 E:\madarsa aaplication\obj\Debug\madarsa_aaplication.SalesCategory.resources
 E:\madarsa aaplication\obj\Debug\madarsa_aaplication.salesview.resources
 E:\madarsa aaplication\obj\Debug\madarsa_aaplication.incomecategory.resources
+E:\Madarsa-Finance-App-Github\bin\Debug\madarsa aaplication.exe.config
+E:\Madarsa-Finance-App-Github\bin\Debug\madarsa aaplication.exe
+E:\Madarsa-Finance-App-Github\bin\Debug\madarsa aaplication.pdb
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa aaplication.csproj.AssemblyReference.cache
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa_aaplication.dashboards.resources
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa_aaplication.enterearning.resources
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa_aaplication.enterexpense.resources
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa_aaplication.incomecategory.resources
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa_aaplication.loginform.resources
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa_aaplication.main.resources
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa_aaplication.Properties.Resources.resources
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa_aaplication.SalesCategory.resources
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa_aaplication.salesview.resources
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa_aaplication.show_expense.resources
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa aaplication.csproj.GenerateResource.cache
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa aaplication.csproj.CoreCompileInputs.cache
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa aaplication.exe
+E:\Madarsa-Finance-App-Github\obj\Debug\madarsa aaplication.pdb

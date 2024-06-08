@@ -99,7 +99,7 @@ namespace madarsa_aaplication
         }
         private void ClearData()
         {
-            expensetextbox.Text = "name";
+            expensetextbox.Text = "";
             descriptionbox.Text = "";
             priceperunittextbox.Text = "";
             dateTimePicker.Value = DateTime.Now;
@@ -109,6 +109,11 @@ namespace madarsa_aaplication
         private void enterexpense_Load(object sender, EventArgs e)
         {
             loadcategory();
+        }
+
+        private void expensetextbox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

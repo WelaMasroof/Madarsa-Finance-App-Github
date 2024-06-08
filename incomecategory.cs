@@ -70,8 +70,8 @@ namespace madarsa_aaplication
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string ExpenseCategory = comboBox1.SelectedItem?.ToString();
-            if (string.IsNullOrEmpty(ExpenseCategory))
+            string income = comboBox1.SelectedItem?.ToString();
+            if (string.IsNullOrEmpty(income))
             {
                 MessageBox.Show("Please select a category to delete", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -84,7 +84,7 @@ namespace madarsa_aaplication
                     sqlconnection.Open();
                     string Query = "delete from IncomeCategory where CategoryName=@ExpenseCategory";
                     SqlCommand cmd = new SqlCommand(Query, sqlconnection);
-                    cmd.Parameters.AddWithValue("@ExpenseCategory", ExpenseCategory);
+                    cmd.Parameters.AddWithValue("@ExpenseCategory", income);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Category Deleted Successfully");
                     ClearData();

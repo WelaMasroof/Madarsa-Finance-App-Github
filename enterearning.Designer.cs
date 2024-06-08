@@ -76,6 +76,7 @@
             this.expensetextbox.Name = "expensetextbox";
             this.expensetextbox.Size = new System.Drawing.Size(352, 26);
             this.expensetextbox.TabIndex = 8;
+            this.expensetextbox.TextChanged += new System.EventHandler(this.expensetextbox_TextChanged);
             // 
             // expensecombobox
             // 

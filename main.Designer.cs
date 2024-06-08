@@ -43,9 +43,9 @@
             // 
             // panel
             // 
-            this.panel.Location = new System.Drawing.Point(0, 32);
+            this.panel.Location = new System.Drawing.Point(0, 51);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(1365, 687);
+            this.panel.Size = new System.Drawing.Size(1365, 668);
             this.panel.TabIndex = 3;
             this.panel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_Paint);
             // 
@@ -62,70 +62,73 @@
             this.خرچمداتToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1366, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(1366, 48);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // uhshsToolStripMenuItem
             // 
-            this.uhshsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.uhshsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uhshsToolStripMenuItem.Name = "uhshsToolStripMenuItem";
-            this.uhshsToolStripMenuItem.Size = new System.Drawing.Size(85, 25);
+            this.uhshsToolStripMenuItem.Size = new System.Drawing.Size(146, 44);
             this.uhshsToolStripMenuItem.Text = "ڈیش بورڈ";
             this.uhshsToolStripMenuItem.Click += new System.EventHandler(this.uhshsToolStripMenuItem_Click);
             // 
             // خرچہToolStripMenuItem
             // 
-            this.خرچہToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.خرچہToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.خرچہToolStripMenuItem.Name = "خرچہToolStripMenuItem";
-            this.خرچہToolStripMenuItem.Size = new System.Drawing.Size(59, 25);
+            this.خرچہToolStripMenuItem.Size = new System.Drawing.Size(98, 44);
             this.خرچہToolStripMenuItem.Text = "خرچہ ";
             this.خرچہToolStripMenuItem.Click += new System.EventHandler(this.خرچہToolStripMenuItem_Click);
             // 
             // آمدنToolStripMenuItem
             // 
-            this.آمدنToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.آمدنToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.آمدنToolStripMenuItem.Name = "آمدنToolStripMenuItem";
-            this.آمدنToolStripMenuItem.Size = new System.Drawing.Size(54, 25);
+            this.آمدنToolStripMenuItem.Size = new System.Drawing.Size(87, 44);
             this.آمدنToolStripMenuItem.Text = "آمدن";
             this.آمدنToolStripMenuItem.Click += new System.EventHandler(this.آمدنToolStripMenuItem_Click);
             // 
             // آمدنتفصیلToolStripMenuItem
             // 
+            this.آمدنتفصیلToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.آمدنتفصیلToolStripMenuItem.Name = "آمدنتفصیلToolStripMenuItem";
-            this.آمدنتفصیلToolStripMenuItem.Size = new System.Drawing.Size(103, 25);
+            this.آمدنتفصیلToolStripMenuItem.Size = new System.Drawing.Size(178, 44);
             this.آمدنتفصیلToolStripMenuItem.Text = "آمدن تفصیل";
             this.آمدنتفصیلToolStripMenuItem.Click += new System.EventHandler(this.آمدنتفصیلToolStripMenuItem_Click);
             // 
             // اخراجاتتفصیلToolStripMenuItem
             // 
+            this.اخراجاتتفصیلToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.اخراجاتتفصیلToolStripMenuItem.Name = "اخراجاتتفصیلToolStripMenuItem";
-            this.اخراجاتتفصیلToolStripMenuItem.Size = new System.Drawing.Size(122, 25);
+            this.اخراجاتتفصیلToolStripMenuItem.Size = new System.Drawing.Size(212, 44);
             this.اخراجاتتفصیلToolStripMenuItem.Text = "اخراجات تفصیل";
             this.اخراجاتتفصیلToolStripMenuItem.Click += new System.EventHandler(this.اخراجاتتفصیلToolStripMenuItem_Click);
             // 
             // مدعاتToolStripMenuItem
             // 
+            this.مدعاتToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.مدعاتToolStripMenuItem.Name = "مدعاتToolStripMenuItem";
-            this.مدعاتToolStripMenuItem.Size = new System.Drawing.Size(94, 25);
+            this.مدعاتToolStripMenuItem.Size = new System.Drawing.Size(161, 44);
             this.مدعاتToolStripMenuItem.Text = "آمدن مدات";
             this.مدعاتToolStripMenuItem.Click += new System.EventHandler(this.مدعاتToolStripMenuItem_Click);
             // 
             // خرچمداتToolStripMenuItem
             // 
+            this.خرچمداتToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.خرچمداتToolStripMenuItem.Name = "خرچمداتToolStripMenuItem";
-            this.خرچمداتToolStripMenuItem.Size = new System.Drawing.Size(88, 25);
+            this.خرچمداتToolStripMenuItem.Size = new System.Drawing.Size(151, 44);
             this.خرچمداتToolStripMenuItem.Text = "خرچ مدّات";
             this.خرچمداتToolStripMenuItem.Click += new System.EventHandler(this.خرچمداتToolStripMenuItem_Click);
             // 
             // button1
             // 
             this.button1.Image = global::madarsa_aaplication.Properties.Resources.close;
-            this.button1.Location = new System.Drawing.Point(1331, 4);
+            this.button1.Location = new System.Drawing.Point(1318, 10);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(23, 23);
+            this.button1.Size = new System.Drawing.Size(36, 35);
             this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

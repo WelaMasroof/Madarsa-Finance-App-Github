@@ -38,39 +38,39 @@
             this.PASSWORDBOX = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(50, 27);
+            this.label1.Location = new System.Drawing.Point(480, 27);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 19);
+            this.label1.Size = new System.Drawing.Size(102, 28);
             this.label1.TabIndex = 11;
-            this.label1.Text = "USERNAME";
+            this.label1.Text = "یوزر کا نام";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(50, 78);
+            this.label2.Location = new System.Drawing.Point(502, 78);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 19);
+            this.label2.Size = new System.Drawing.Size(80, 28);
             this.label2.TabIndex = 12;
-            this.label2.Text = "PASSWORD";
+            this.label2.Text = "پاس ورڈ";
             // 
             // USERNAMEBOX
             // 
             this.USERNAMEBOX.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.USERNAMEBOX.Location = new System.Drawing.Point(187, 27);
+            this.USERNAMEBOX.Location = new System.Drawing.Point(159, 27);
             this.USERNAMEBOX.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.USERNAMEBOX.Name = "USERNAMEBOX";
             this.USERNAMEBOX.Size = new System.Drawing.Size(283, 26);
@@ -79,13 +79,14 @@
             // ExitBtn
             // 
             this.ExitBtn.BackColor = System.Drawing.Color.Black;
+            this.ExitBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitBtn.ForeColor = System.Drawing.Color.White;
             this.ExitBtn.Location = new System.Drawing.Point(494, 303);
             this.ExitBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(160, 37);
             this.ExitBtn.TabIndex = 25;
-            this.ExitBtn.Text = "EXIT";
+            this.ExitBtn.Text = "بند کریں";
             this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
@@ -102,36 +103,38 @@
             // loginbutton
             // 
             this.loginbutton.BackColor = System.Drawing.Color.Black;
+            this.loginbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginbutton.ForeColor = System.Drawing.Color.White;
             this.loginbutton.Location = new System.Drawing.Point(283, 303);
             this.loginbutton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.loginbutton.Name = "loginbutton";
             this.loginbutton.Size = new System.Drawing.Size(160, 37);
             this.loginbutton.TabIndex = 22;
-            this.loginbutton.Text = "LOGIN";
+            this.loginbutton.Text = "لاگ ان";
             this.loginbutton.UseVisualStyleBackColor = false;
             this.loginbutton.Click += new System.EventHandler(this.loginbutton_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Cambria", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.label3.Location = new System.Drawing.Point(87, 14);
+            this.label3.Location = new System.Drawing.Point(183, 2);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label3.Size = new System.Drawing.Size(471, 25);
+            this.label3.Size = new System.Drawing.Size(317, 41);
             this.label3.TabIndex = 21;
-            this.label3.Text = "WELCOME TO POULTRY MANAGEMENT SYSTEM";
+            this.label3.Text = "مدرسہ سیدنا امیر حمزہؓ";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // PASSWORDBOX
             // 
             this.PASSWORDBOX.AcceptsReturn = true;
             this.PASSWORDBOX.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.PASSWORDBOX.Location = new System.Drawing.Point(187, 78);
+            this.PASSWORDBOX.Location = new System.Drawing.Point(160, 78);
             this.PASSWORDBOX.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PASSWORDBOX.Name = "PASSWORDBOX";
             this.PASSWORDBOX.Size = new System.Drawing.Size(283, 26);
@@ -142,6 +145,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Location = new System.Drawing.Point(7, 4);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
@@ -151,7 +155,6 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.checkBox1);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.SuggestionLbl);
@@ -162,18 +165,6 @@
             this.panel2.Size = new System.Drawing.Size(647, 152);
             this.panel2.TabIndex = 24;
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.Color.White;
-            this.checkBox1.Location = new System.Drawing.Point(187, 114);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(130, 23);
-            this.checkBox1.TabIndex = 18;
-            this.checkBox1.Text = "Show Password";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // loginform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -182,17 +173,17 @@
             this.ClientSize = new System.Drawing.Size(660, 352);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.loginbutton);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "loginform";
             this.Text = "loginform";
             this.Load += new System.EventHandler(this.loginform_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -208,6 +199,5 @@
         private System.Windows.Forms.TextBox PASSWORDBOX;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
