@@ -57,7 +57,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label5.Location = new System.Drawing.Point(643, 8);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(124, 36);
@@ -67,11 +67,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(466, 24);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label1.Location = new System.Drawing.Point(509, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 25);
+            this.label1.Size = new System.Drawing.Size(123, 31);
             this.label1.TabIndex = 19;
             this.label1.Text = "دیگر مدّعات";
             // 
@@ -87,11 +87,11 @@
             // addrecord
             // 
             this.addrecord.BackColor = System.Drawing.Color.Black;
-            this.addrecord.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addrecord.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addrecord.ForeColor = System.Drawing.Color.White;
-            this.addrecord.Location = new System.Drawing.Point(25, 22);
+            this.addrecord.Location = new System.Drawing.Point(17, 19);
             this.addrecord.Name = "addrecord";
-            this.addrecord.Size = new System.Drawing.Size(133, 28);
+            this.addrecord.Size = new System.Drawing.Size(141, 35);
             this.addrecord.TabIndex = 43;
             this.addrecord.Text = "درج کریں";
             this.addrecord.UseVisualStyleBackColor = false;
@@ -122,11 +122,11 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(14, 22);
+            this.button1.Location = new System.Drawing.Point(3, 22);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 28);
+            this.button1.Size = new System.Drawing.Size(141, 35);
             this.button1.TabIndex = 51;
             this.button1.Text = "خارج کریں";
             this.button1.UseVisualStyleBackColor = false;
@@ -144,11 +144,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(525, 24);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label2.Location = new System.Drawing.Point(527, 19);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 25);
+            this.label2.Size = new System.Drawing.Size(128, 31);
             this.label2.TabIndex = 46;
             this.label2.Text = "خارج مدّعات";
             // 

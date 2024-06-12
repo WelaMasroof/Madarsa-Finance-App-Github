@@ -69,6 +69,7 @@
             // uhshsToolStripMenuItem
             // 
             this.uhshsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uhshsToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.uhshsToolStripMenuItem.Name = "uhshsToolStripMenuItem";
             this.uhshsToolStripMenuItem.Size = new System.Drawing.Size(146, 44);
             this.uhshsToolStripMenuItem.Text = "ڈیش بورڈ";
@@ -77,6 +78,7 @@
             // خرچہToolStripMenuItem
             // 
             this.خرچہToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.خرچہToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.خرچہToolStripMenuItem.Name = "خرچہToolStripMenuItem";
             this.خرچہToolStripMenuItem.Size = new System.Drawing.Size(98, 44);
             this.خرچہToolStripMenuItem.Text = "خرچہ ";
@@ -85,6 +87,7 @@
             // آمدنToolStripMenuItem
             // 
             this.آمدنToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.آمدنToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.آمدنToolStripMenuItem.Name = "آمدنToolStripMenuItem";
             this.آمدنToolStripMenuItem.Size = new System.Drawing.Size(87, 44);
             this.آمدنToolStripMenuItem.Text = "آمدن";
@@ -93,6 +96,7 @@
             // آمدنتفصیلToolStripMenuItem
             // 
             this.آمدنتفصیلToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.آمدنتفصیلToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.آمدنتفصیلToolStripMenuItem.Name = "آمدنتفصیلToolStripMenuItem";
             this.آمدنتفصیلToolStripMenuItem.Size = new System.Drawing.Size(178, 44);
             this.آمدنتفصیلToolStripMenuItem.Text = "آمدن تفصیل";
@@ -101,6 +105,7 @@
             // اخراجاتتفصیلToolStripMenuItem
             // 
             this.اخراجاتتفصیلToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.اخراجاتتفصیلToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.اخراجاتتفصیلToolStripMenuItem.Name = "اخراجاتتفصیلToolStripMenuItem";
             this.اخراجاتتفصیلToolStripMenuItem.Size = new System.Drawing.Size(212, 44);
             this.اخراجاتتفصیلToolStripMenuItem.Text = "اخراجات تفصیل";
@@ -109,6 +114,7 @@
             // مدعاتToolStripMenuItem
             // 
             this.مدعاتToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.مدعاتToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.مدعاتToolStripMenuItem.Name = "مدعاتToolStripMenuItem";
             this.مدعاتToolStripMenuItem.Size = new System.Drawing.Size(161, 44);
             this.مدعاتToolStripMenuItem.Text = "آمدن مدات";
@@ -117,6 +123,7 @@
             // خرچمداتToolStripMenuItem
             // 
             this.خرچمداتToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.خرچمداتToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.خرچمداتToolStripMenuItem.Name = "خرچمداتToolStripMenuItem";
             this.خرچمداتToolStripMenuItem.Size = new System.Drawing.Size(151, 44);
             this.خرچمداتToolStripMenuItem.Text = "خرچ مدّات";

@@ -36,8 +36,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -57,7 +57,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label5.Location = new System.Drawing.Point(643, 8);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(124, 36);
@@ -89,11 +89,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(466, 24);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label1.Location = new System.Drawing.Point(509, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 25);
+            this.label1.Size = new System.Drawing.Size(123, 31);
             this.label1.TabIndex = 19;
             this.label1.Text = "دیگر مدّعات";
             // 
@@ -102,7 +102,7 @@
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.comboBox1);
-            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.label3);
             this.panel3.Location = new System.Drawing.Point(9, 106);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(662, 68);
@@ -130,17 +130,6 @@
             this.comboBox1.Size = new System.Drawing.Size(255, 28);
             this.comboBox1.TabIndex = 48;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(525, 24);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 25);
-            this.label2.TabIndex = 46;
-            this.label2.Text = "خارج مدّعات";
-            // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -151,6 +140,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(639, 68);
             this.panel2.TabIndex = 53;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label3.Location = new System.Drawing.Point(527, 19);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(128, 31);
+            this.label3.TabIndex = 46;
+            this.label3.Text = "خارج مدّعات";
             // 
             // incomecategory
             // 
@@ -186,7 +186,7 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label3;
     }
 }

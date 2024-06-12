@@ -48,10 +48,10 @@
             // 
             // dateTimePicker
             // 
-            this.dateTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.dateTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker.Location = new System.Drawing.Point(119, 115);
             this.dateTimePicker.Name = "dateTimePicker";
-            this.dateTimePicker.Size = new System.Drawing.Size(352, 22);
+            this.dateTimePicker.Size = new System.Drawing.Size(352, 29);
             this.dateTimePicker.TabIndex = 20;
             // 
             // label6
@@ -90,11 +90,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label1.Location = new System.Drawing.Point(1210, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 22);
+            this.label1.Size = new System.Drawing.Size(143, 31);
             this.label1.TabIndex = 10;
             this.label1.Text = "اخراجات کا نام";
             // 
@@ -118,33 +118,33 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label10.Location = new System.Drawing.Point(543, 115);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(43, 22);
+            this.label10.Size = new System.Drawing.Size(61, 31);
             this.label10.TabIndex = 50;
             this.label10.Text = "تاریخ";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label9.Location = new System.Drawing.Point(1222, 114);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(36, 22);
+            this.label9.Size = new System.Drawing.Size(51, 31);
             this.label9.TabIndex = 49;
             this.label9.Text = "رقم ";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label8.Location = new System.Drawing.Point(514, 39);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 22);
+            this.label8.Size = new System.Drawing.Size(124, 31);
             this.label8.TabIndex = 48;
             this.label8.Text = "اخراجات  مدّ";
             // 
@@ -170,8 +170,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label5.Location = new System.Drawing.Point(582, 9);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(106, 36);
@@ -181,7 +181,7 @@
             // descriptionbox
             // 
             this.descriptionbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.descriptionbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.descriptionbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descriptionbox.Location = new System.Drawing.Point(9, 316);
             this.descriptionbox.Multiline = true;
             this.descriptionbox.Name = "descriptionbox";
@@ -191,12 +191,12 @@
             // addrecordbutton
             // 
             this.addrecordbutton.BackColor = System.Drawing.Color.Black;
-            this.addrecordbutton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.addrecordbutton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addrecordbutton.ForeColor = System.Drawing.Color.LightGray;
             this.addrecordbutton.Location = new System.Drawing.Point(9, 604);
             this.addrecordbutton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.addrecordbutton.Name = "addrecordbutton";
-            this.addrecordbutton.Size = new System.Drawing.Size(160, 33);
+            this.addrecordbutton.Size = new System.Drawing.Size(180, 44);
             this.addrecordbutton.TabIndex = 45;
             this.addrecordbutton.Text = "محفوظ کریں";
             this.addrecordbutton.UseVisualStyleBackColor = false;

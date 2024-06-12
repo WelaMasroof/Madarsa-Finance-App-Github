@@ -32,7 +32,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.searchbutton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.showdata = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.datashowbutton = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -53,11 +52,11 @@
             // searchbutton
             // 
             this.searchbutton.BackColor = System.Drawing.Color.Black;
-            this.searchbutton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.searchbutton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchbutton.ForeColor = System.Drawing.Color.White;
-            this.searchbutton.Location = new System.Drawing.Point(7, 20);
+            this.searchbutton.Location = new System.Drawing.Point(7, 11);
             this.searchbutton.Name = "searchbutton";
-            this.searchbutton.Size = new System.Drawing.Size(159, 27);
+            this.searchbutton.Size = new System.Drawing.Size(180, 44);
             this.searchbutton.TabIndex = 5;
             this.searchbutton.Text = "تلاش کریں";
             this.searchbutton.UseVisualStyleBackColor = false;
@@ -66,46 +65,38 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1290, 20);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label2.Location = new System.Drawing.Point(1290, 17);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 22);
+            this.label2.Size = new System.Drawing.Size(34, 31);
             this.label2.TabIndex = 3;
             this.label2.Text = "مدّ";
-            // 
-            // showdata
-            // 
-            this.showdata.BackColor = System.Drawing.Color.Black;
-            this.showdata.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showdata.ForeColor = System.Drawing.Color.White;
-            this.showdata.Location = new System.Drawing.Point(195, 615);
-            this.showdata.Name = "showdata";
-            this.showdata.Size = new System.Drawing.Size(180, 35);
-            this.showdata.TabIndex = 44;
-            this.showdata.Text = "تفصیل";
-            this.showdata.UseVisualStyleBackColor = false;
-            this.showdata.Click += new System.EventHandler(this.showdata_Click);
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label3.Location = new System.Drawing.Point(581, 15);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(185, 31);
             this.label3.TabIndex = 17;
             this.label3.Text = "اخراجات کی تفصیل";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // datashowbutton
             // 
             this.datashowbutton.AutoSize = true;
             this.datashowbutton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.datashowbutton.ForeColor = System.Drawing.Color.MidnightBlue;
             this.datashowbutton.Location = new System.Drawing.Point(1194, 176);
             this.datashowbutton.Name = "datashowbutton";
             this.datashowbutton.Size = new System.Drawing.Size(161, 31);
             this.datashowbutton.TabIndex = 46;
             this.datashowbutton.Text = "معلومات دکھائیں";
+            this.datashowbutton.Click += new System.EventHandler(this.datashowbutton_Click);
             // 
             // label4
             // 
@@ -155,6 +146,7 @@
             this.salesrecord.ReadOnly = true;
             this.salesrecord.Size = new System.Drawing.Size(1345, 381);
             this.salesrecord.TabIndex = 47;
+            this.salesrecord.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.salesrecord_CellContentClick);
             // 
             // panel1
             // 
@@ -184,20 +176,23 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(494, 22);
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label6.Location = new System.Drawing.Point(491, 16);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 22);
+            this.label6.Size = new System.Drawing.Size(118, 31);
             this.label6.TabIndex = 27;
             this.label6.Text = "تاریخ اختتام";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(876, 22);
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label5.Location = new System.Drawing.Point(872, 17);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 22);
+            this.label5.Size = new System.Drawing.Size(107, 31);
             this.label5.TabIndex = 26;
             this.label5.Text = "تاریخ آغاز";
             // 
@@ -220,11 +215,11 @@
             // deleteButton
             // 
             this.deleteButton.BackColor = System.Drawing.Color.Black;
-            this.deleteButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.deleteButton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteButton.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.deleteButton.Location = new System.Drawing.Point(9, 615);
             this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(180, 35);
+            this.deleteButton.Size = new System.Drawing.Size(180, 44);
             this.deleteButton.TabIndex = 50;
             this.deleteButton.Text = "حذف کریں";
             this.deleteButton.UseVisualStyleBackColor = false;
@@ -236,7 +231,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1365, 686);
-            this.Controls.Add(this.showdata);
             this.Controls.Add(this.datashowbutton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.salesrecord);
@@ -261,7 +255,6 @@
 
         private System.Windows.Forms.Button searchbutton;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button showdata;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label datashowbutton;
         private System.Windows.Forms.Label label4;

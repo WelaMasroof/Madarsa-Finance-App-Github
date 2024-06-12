@@ -23,6 +23,7 @@ namespace madarsa_aaplication
         private void salesview_Load(object sender, EventArgs e)
         {
             LoadDataIntoComboBox();
+            salesrecord.Font = new Font(salesrecord.Font.FontFamily, 16);
         }
 
         private void LoadDataIntoComboBox()
@@ -81,7 +82,7 @@ namespace madarsa_aaplication
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
                 connection.Open();
-                string query = "SELECT IncomeName, IncomeType, IncomeDate, IncomeAmount, Description FROM Income WHERE (@Category IS NULL OR IncomeType = @Category) AND [IncomeDate] BETWEEN @StartDate AND @EndDate";
+                string query = "SELECT IncomeName as [عطیہ کنندہ], IncomeType as [مدّ], IncomeDate as [تاریخ], IncomeAmount as [ رقم], Description as [تفصیل] FROM Income WHERE (@Category IS NULL OR IncomeType = @Category) AND [IncomeDate] BETWEEN @StartDate AND @EndDate";
                 SqlCommand command = new SqlCommand(query, connection);
 
                 // Add category parameter only if a category is selected
@@ -160,6 +161,11 @@ namespace madarsa_aaplication
                 connection.Open();
                 command.ExecuteNonQuery();
             }
+        }
+
+        private void salesrecord_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

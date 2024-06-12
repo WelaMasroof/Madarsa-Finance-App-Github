@@ -23,6 +23,7 @@ namespace madarsa_aaplication
         private void show_expense_Load(object sender, EventArgs e)
         {
             LoadDataIntoComboBox();
+            salesrecord.Font = new Font(salesrecord.Font.FontFamily, 16);
         }
 
         private void searchbutton_Click(object sender, EventArgs e)
@@ -56,7 +57,7 @@ namespace madarsa_aaplication
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
                 connection.Open();
-                string query = "SELECT ExpenseName, ExpenseType, ExpenseDate, ExpenseAmount, Description FROM Expenses WHERE (@Category IS NULL OR ExpenseType = @Category) AND [ExpenseDate] BETWEEN @StartDate AND @EndDate";
+                string query = "SELECT ExpenseName as [ اخراجات کا نام], ExpenseType as [مدّ], ExpenseDate as [تاریخ], ExpenseAmount as [رقم], Description as [تفصیل] FROM Expenses WHERE (@Category IS NULL OR ExpenseType = @Category) AND [ExpenseDate] BETWEEN @StartDate AND @EndDate";
                 SqlCommand command = new SqlCommand(query, connection);
 
                 // Add category parameter only if a category is selected
@@ -160,6 +161,31 @@ namespace madarsa_aaplication
                 connection.Open();
                 command.ExecuteNonQuery();
             }
+        }
+
+        private void datashowbutton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salesrecord_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
